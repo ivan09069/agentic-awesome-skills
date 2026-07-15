@@ -1,4 +1,4 @@
-# Hướng dẫn Bắt đầu với Antigravity Awesome Skills (V4)
+# Hướng dẫn Bắt đầu với Agentic Awesome Skills (V4)
 
 **Bạn mới đến đây? Hướng dẫn này sẽ giúp bạn tăng cường sức mạnh cho trợ lý trợ lý AI của mình chỉ trong 5 phút.**
 
@@ -24,7 +24,7 @@ Sao chép các kỹ năng vào thư mục agent của bạn:
 
 ```bash
 # Cài đặt phổ thông (hoạt động với hầu hết các agent)
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+git clone https://github.com/sickn33/agentic-awesome-skills.git .agent/skills
 ```
 
 ### 2. Chọn vai trò của bạn

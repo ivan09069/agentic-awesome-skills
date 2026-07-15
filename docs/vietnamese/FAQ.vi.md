@@ -1,6 +1,6 @@
 # ❓ Câu hỏi thường gặp (FAQ)
 
-**Bạn có thắc mắc?** Bạn không hề cô đơn! Dưới đây là câu trả lời cho những câu hỏi thường gặp nhất về Antigravity Awesome Skills.
+**Bạn có thắc mắc?** Bạn không hề cô đơn! Dưới đây là câu trả lời cho những câu hỏi thường gặp nhất về Agentic Awesome Skills.
 
 ---
 
@@ -8,13 +8,13 @@
 
 ### "Skills" (kỹ năng) chính xác là gì?
 
-Skills là các tệp hướng dẫn chuyên biệt dạy cho các trợ lý AI cách xử lý những tác vụ cụ thể. Hãy coi chúng như những mô-đun kiến thức chuyên gia mà AI của bạn có thể tải khi cần.  
+Skills là các tệp hướng dẫn chuyên biệt dạy cho các trợ lý AI cách xử lý những tác vụ cụ thể. Hãy coi chúng như những mô-đun kiến thức chuyên gia mà AI của bạn có thể tải khi cần.
 **Một so sánh đơn giản:** Giống như việc bạn tham khảo ý kiến của các chuyên gia khác nhau (luật sư, bác sĩ, thợ máy), những kỹ năng này giúp AI của bạn trở thành chuyên gia trong các lĩnh vực khác nhau khi bạn cần.
 
 ### Tôi có cần phải cài đặt tất cả hơn 560 skills không?
 
-**Không!** Khi bạn clone (tải bản sao) repository này, tất cả các kỹ năng đều có sẵn, nhưng AI của bạn chỉ tải chúng khi bạn yêu cầu rõ ràng bằng lệnh `@ten-skill`.  
-Nó giống như việc sở hữu một thư viện - tất cả sách đều ở đó, nhưng bạn chỉ đọc những cuốn bạn cần thôi.  
+**Không!** Khi bạn clone (tải bản sao) repository này, tất cả các kỹ năng đều có sẵn, nhưng AI của bạn chỉ tải chúng khi bạn yêu cầu rõ ràng bằng lệnh `@ten-skill`.
+Nó giống như việc sở hữu một thư viện - tất cả sách đều ở đó, nhưng bạn chỉ đọc những cuốn bạn cần thôi.
 **Mẹo:** Sử dụng [Bản mẫu Khởi đầu (Starter Packs)](BUNDLES.vi.md) để chỉ cài đặt những gì phù hợp với vai trò của bạn.
 
 ### Những công cụ AI nào hoạt động với các kỹ năng này?
@@ -53,7 +53,7 @@ Chúng tôi phân loại các kỹ năng để bạn biết mình đang chạy c
 
 ### Những kỹ năng này có thể hack máy tính của tôi không?
 
-**Không.** Kỹ năng là các file văn bản. Tuy nhiên, chúng *hướng dẫn* AI chạy các dòng lệnh. Nếu một skill nói "xóa toàn bộ file", một AI tuân thủ có thể sẽ thử làm việc đó.  
+**Không.** Kỹ năng là các file văn bản. Tuy nhiên, chúng *hướng dẫn* AI chạy các dòng lệnh. Nếu một skill nói "xóa toàn bộ file", một AI tuân thủ có thể sẽ thử làm việc đó.
 _Luôn kiểm tra nhãn rủi ro và xem xét mã nguồn trước khi dùng._
 
 ---
@@ -65,7 +65,7 @@ _Luôn kiểm tra nhãn rủi ro và xem xét mã nguồn trước khi dùng._
 Đường dẫn phổ biến nhất hoạt động với mạng lưới các công cụ AI là `.agent/skills/`:
 
 ```bash
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+git clone https://github.com/sickn33/agentic-awesome-skills.git .agent/skills
 ```
 
 **Các đường dẫn cụ thể cho từng công cụ:**
@@ -76,11 +76,11 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skill
 
 ### Repo này có hoạt động trên Windows không?
 
-**Có**, nhưng một số kỹ năng "Official" (chính thức) sử dụng **symlinks** (liên kết tượng trưng) mà Windows xử lý không tốt theo mặc định.  
+**Có**, nhưng một số kỹ năng "Official" (chính thức) sử dụng **symlinks** (liên kết tượng trưng) mà Windows xử lý không tốt theo mặc định.
 Hãy chạy git clone với lệnh sau:
 
 ```bash
-git clone -c core.symlinks=true https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+git clone -c core.symlinks=true https://github.com/sickn33/agentic-awesome-skills.git .agent/skills
 ```
 
 Hoặc bật "Chế độ Nhà phát triển" (Developer Mode) trong phần Cài đặt của Windows.
@@ -134,7 +134,7 @@ Sử dụng biểu tượng `@` theo sau là tên skill:
 
 ### Một kỹ năng đưa ra lời khuyên sai hoặc lỗi thời
 
-Hãy [Mở một issue](https://github.com/sickn33/antigravity-awesome-skills/issues)!  
+Hãy [Mở một issue](https://github.com/sickn33/agentic-awesome-skills/issues)!
 Vui lòng gửi kèm:
 
 - Skill nào?
@@ -151,7 +151,7 @@ Vui lòng gửi kèm:
 
 - Sửa lỗi đánh máy.
 - Thêm ví dụ.
-- Cải thiện tài liệu hướng dẫn.  
+- Cải thiện tài liệu hướng dẫn.
 Hãy xem [CONTRIBUTING.md](../../CONTRIBUTING.md) để biết hướng dẫn chi tiết.
 
 ### Pull Request (PR) của tôi thất bại khi kiểm tra "Quality Bar". Tại sao?
@@ -159,7 +159,7 @@ Hãy xem [CONTRIBUTING.md](../../CONTRIBUTING.md) để biết hướng dẫn ch
 Phiên bản V3 áp dụng kiểm soát chất lượng tự động. Skill của bạn có thể đang thiếu:
 
 1. Một `description` (mô tả) hợp lệ.
-2. Các ví dụ sử dụng.  
+2. Các ví dụ sử dụng.
 Hãy chạy `python3 scripts/validate_skills.py` cục bộ để kiểm tra trước khi đẩy code lên.
 
 ### Tôi có thể cập nhật các kỹ năng "Official" không?
@@ -175,4 +175,4 @@ Hãy chạy `python3 scripts/validate_skills.py` cục bộ để kiểm tra tr�
 - Thử `@test-driven-development` để code có chất lượng tốt hơn.
 - Khám phá `@skill-creator` để tự tạo kỹ năng của riêng bạn.
 
-**Vẫn còn thắc mắc?** [Mở một cuộc thảo luận (Discussion)](https://github.com/sickn33/antigravity-awesome-skills/discussions) và chúng tôi sẽ giúp bạn! 🙌
+**Vẫn còn thắc mắc?** [Mở một cuộc thảo luận (Discussion)](https://github.com/sickn33/agentic-awesome-skills/discussions) và chúng tôi sẽ giúp bạn! 🙌

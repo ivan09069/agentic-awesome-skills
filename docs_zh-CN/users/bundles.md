@@ -1,4 +1,4 @@
-# Antigravity 技能捆绑包
+  Antigravity 技能捆绑包
 
 > **按角色和专业知识级别组织的精选技能集合。** 不知道从哪里开始？从下面的捆绑包中选择一个，为你的角色获取一套精选技能。
 
@@ -6,14 +6,14 @@
 
 > **重要提示：** 捆绑包不是可调用的大型技能，如 `@web-wizard` 或 `/essentials-bundle`。使用包中列出的各个技能，或者如果你只想在实时 Antigravity 目录中激活该捆绑包的技能，请使用激活脚本。
 
-## 快速开始
+   快速开始
 
 1. **安装仓库：**
 
    ```bash
-   npx antigravity-awesome-skills
-   # 或手动克隆
-   git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+   npx agentic-awesome-skills
+     或手动克隆
+   git clone https://github.com/sickn33/agentic-awesome-skills.git .agent/skills
    ```
 
 2. **根据你的角色或兴趣**从下面的列表中选择你的捆绑包。
@@ -32,9 +32,9 @@
 
 ---
 
-## 基础与核心
+   基础与核心
 
-### 🚀 "基础"入门包
+    🚀 "基础"入门包
 
 _适用于所有人。先安装这些。_
 
@@ -46,9 +46,9 @@ _适用于所有人。先安装这些。_
 
 ---
 
-## 安全与合规
+   安全与合规
 
-### 🛡️ "安全工程师"包
+    🛡️ "安全工程师"包
 
 _用于渗透测试、审计和加固。_
 
@@ -60,7 +60,7 @@ _用于渗透测试、审计和加固。_
 - [`security-auditor`](../../skills/security-auditor/)：综合安全审计。
 - [`vulnerability-scanner`](../../skills/vulnerability-scanner/)：高级漏洞分析。
 
-### 🔐 "安全开发者"包
+    🔐 "安全开发者"包
 
 _用于构建安全应用程序。_
 
@@ -73,9 +73,9 @@ _用于构建安全应用程序。_
 
 ---
 
-## 🌐 Web 开发
+   🌐 Web 开发
 
-### 🌐 "Web 向导"包
+    🌐 "Web 向导"包
 
 _用于构建现代高性能 Web 应用。_
 
@@ -87,7 +87,7 @@ _用于构建现代高性能 Web 应用。_
 - [`form-cro`](../../skills/form-cro/)：优化表单以提高转化率。
 - [`seo-audit`](../../skills/seo-audit/)：在 Google 上被发现。
 
-### 🖌️ "Web 设计师"包
+    🖌️ "Web 设计师"包
 
 _用于像素级完美体验。_
 
@@ -98,7 +98,7 @@ _用于像素级完美体验。_
 - [`mobile-design`](../../skills/mobile-design/)：移动优先的设计原则。
 - [`scroll-experience`](../../skills/scroll-experience/)：沉浸式滚动驱动体验。
 
-### ⚡ "全栈开发者"包
+    ⚡ "全栈开发者"包
 
 _用于端到端 Web 应用程序开发。_
 
@@ -111,9 +111,9 @@ _用于端到端 Web 应用程序开发。_
 
 ---
 
-## 🤖 AI 与代理
+   🤖 AI 与代理
 
-### 🤖 "代理架构师"包
+    🤖 "代理架构师"包
 
 _用于构建 AI 系统和自主代理。_
 
@@ -124,7 +124,7 @@ _用于构建 AI 系统和自主代理。_
 - [`ai-agents-architect`](../../skills/ai-agents-architect/)：设计自主 AI 代理。
 - [`rag-engineer`](../../skills/rag-engineer/)：使用向量搜索构建 RAG 系统。
 
-### 🧠 "LLM 应用开发者"包
+    🧠 "LLM 应用开发者"包
 
 _用于构建生产级 LLM 应用。_
 
@@ -136,9 +136,9 @@ _用于构建生产级 LLM 应用。_
 
 ---
 
-## 🎮 游戏开发
+   🎮 游戏开发
 
-### 🎮 "独立游戏开发者"包
+    🎮 "独立游戏开发者"包
 
 _用于使用 AI 助手构建游戏。_
 
@@ -151,9 +151,9 @@ _用于使用 AI 助手构建游戏。_
 
 ---
 
-## 🐍 后端与语言
+   🐍 后端与语言
 
-### 🐍 "Python 专家"包
+    🐍 "Python 专家"包
 
 _用于后端重量级选手和数据科学家。_
 
@@ -165,7 +165,7 @@ _用于后端重量级选手和数据科学家。_
 - [`python-testing-patterns`](../../skills/python-testing-patterns/)：使用 pytest 进行综合测试。
 - [`async-python-patterns`](../../skills/async-python-patterns/)：Python asyncio 精通。
 
-### 🟦 "TypeScript 与 JavaScript"包
+    🟦 "TypeScript 与 JavaScript"包
 
 _用于现代 Web 开发。_
 
@@ -175,7 +175,7 @@ _用于现代 Web 开发。_
 - [`nodejs-best-practices`](../../skills/nodejs-best-practices/)：Node.js 开发原则。
 - [`nextjs-app-router-patterns`](../../skills/nextjs-app-router-patterns/)：Next.js 14+ App Router。
 
-### 🦀 "系统编程"包
+    🦀 "系统编程"包
 
 _用于低级和性能关键代码。_
 
@@ -187,9 +187,9 @@ _用于低级和性能关键代码。_
 
 ---
 
-## 🦄 产品与业务
+   🦄 产品与业务
 
-### 🦄 "创业公司创始人"包
+    🦄 "创业公司创始人"包
 
 _用于构建产品，而不仅仅是代码。_
 
@@ -200,7 +200,7 @@ _用于构建产品，而不仅仅是代码。_
 - [`copywriting`](../../skills/copywriting/)：高转化的营销文案。
 - [`stripe-integration`](../../skills/stripe-integration/)：从第一天开始获得收入。
 
-### 📊 "业务分析师"包
+    📊 "业务分析师"包
 
 _用于数据驱动的决策制定。_
 
@@ -210,7 +210,7 @@ _用于数据驱动的决策制定。_
 - [`market-sizing-analysis`](../../skills/market-sizing-analysis/)：TAM/SAM/SOM 计算。
 - [`kpi-dashboard-design`](../../skills/kpi-dashboard-design/)：有效的 KPI 仪表板。
 
-### 📈 "营销与增长"包
+    📈 "营销与增长"包
 
 _用于驱动用户获取和留存。_
 
@@ -223,9 +223,9 @@ _用于驱动用户获取和留存。_
 
 ---
 
-## DevOps 与基础设施
+   DevOps 与基础设施
 
-### 🌧️ "DevOps 与云"包
+    🌧️ "DevOps 与云"包
 
 _用于基础设施和扩展。_
 
@@ -237,7 +237,7 @@ _用于基础设施和扩展。_
 - [`deployment-procedures`](../../skills/deployment-procedures/)：安全发布策略。
 - [`bash-linux`](../../skills/bash-linux/)：终端魔法。
 
-### 📊 "可观察性与监控"包
+    📊 "可观察性与监控"包
 
 _用于生产可靠性。_
 
@@ -250,9 +250,9 @@ _用于生产可靠性。_
 
 ---
 
-## 📊 数据与分析
+   📊 数据与分析
 
-### 📊 "数据与分析"包
+    📊 "数据与分析"包
 
 _用于理解数字。_
 
@@ -263,7 +263,7 @@ _用于理解数字。_
 - [`ab-test-setup`](../../skills/ab-test-setup/)：经过验证的学习。
 - [`database-architect`](../../skills/database-architect/)：从头开始设计数据库。
 
-### 🔄 "数据工程"包
+    🔄 "数据工程"包
 
 _用于构建数据管道。_
 
@@ -275,9 +275,9 @@ _用于构建数据管道。_
 
 ---
 
-## 🎨 创意与内容
+   🎨 创意与内容
 
-### 🎨 "创意总监"包
+    🎨 "创意总监"包
 
 _用于视觉、内容和品牌。_
 
@@ -290,9 +290,9 @@ _用于视觉、内容和品牌。_
 
 ---
 
-## 🐞 质量保证
+   🐞 质量保证
 
-### 🐞 "QA 与测试"包
+    🐞 "QA 与测试"包
 
 _用于在用户之前发现问题。_
 
@@ -306,9 +306,9 @@ _用于在用户之前发现问题。_
 
 ---
 
-## 🔧 专业包
+   🔧 专业包
 
-### 📱 "移动开发者"包
+    📱 "移动开发者"包
 
 _用于 iOS、Android 和跨平台应用。_
 
@@ -318,7 +318,7 @@ _用于 iOS、Android 和跨平台应用。_
 - [`ios-developer`](../../skills/ios-developer/)：使用 Swift 进行 iOS 开发。
 - [`app-store-optimization`](../../skills/app-store-optimization/)：App Store 和 Play Store 的 ASO。
 
-### 🔗 "集成与 API"包
+    🔗 "集成与 API"包
 
 _用于连接服务和构建集成。_
 
@@ -328,7 +328,7 @@ _用于连接服务和构建集成。_
 - [`plaid-fintech`](../../skills/plaid-fintech/)：银行账户链接和 ACH。
 - [`algolia-search`](../../skills/algolia-search/)：搜索实现。
 
-### 🎯 "架构与设计"包
+    🎯 "架构与设计"包
 
 _用于系统设计和技术决策。_
 
@@ -338,7 +338,7 @@ _用于系统设计和技术决策。_
 - [`event-sourcing-architect`](../../skills/event-sourcing-architect/)：事件溯源和 CQRS。
 - [`architecture-decision-records`](../../skills/architecture-decision-records/)：记录技术决策。
 
-### 🧱 "DDD 与事件架构"包
+    🧱 "DDD 与事件架构"包
 
 _用于为复杂领域建模并发展为事件系统的团队。_
 
@@ -351,7 +351,7 @@ _用于为复杂领域建模并发展为事件系统的团队。_
 - [`saga-orchestration`](../../skills/saga-orchestration/)：跨上下文长期运行事务协调。
 - [`projection-patterns`](../../skills/projection-patterns/)：来自事件流的物化读模型。
 
-### 🤖 "自动化构建器"包
+    🤖 "自动化构建器"包
 
 _用于连接工具和构建可重复的自动化工作流。_
 
@@ -363,7 +363,7 @@ _用于连接工具和构建可重复的自动化工作流。_
 - [`slack-automation`](../../skills/slack-automation/)：自动化 Slack 消息和频道工作流。
 - [`googlesheets-automation`](../../skills/googlesheets-automation/)：自动化电子表格更新和数据操作。
 
-### 💼 "收入运营与 CRM 自动化"包
+    💼 "收入运营与 CRM 自动化"包
 
 _用于收入运营、支持交接和重度 CRM 自动化。_
 
@@ -375,7 +375,7 @@ _用于收入运营、支持交接和重度 CRM 自动化。_
 - [`stripe-automation`](../../skills/stripe-automation/)：自动化账单、发票和订阅。
 - [`shopify-automation`](../../skills/shopify-automation/)：自动化产品、订单、客户和库存。
 
-### 💳 "商务与支付"包
+    💳 "商务与支付"包
 
 _用于货币化、支付和商务工作流。_
 
@@ -386,7 +386,7 @@ _用于货币化、支付和商务工作流。_
 - [`algolia-search`](../../skills/algolia-search/)：为商务体验添加搜索和发现。
 - [`monetization`](../../skills/monetization/)：有意设计定价和货币化系统。
 
-### 🏢 "Odoo ERP"包
+    🏢 "Odoo ERP"包
 
 _用于构建或围绕基于 Odoo 的业务系统运营的团队。_
 
@@ -398,7 +398,7 @@ _用于构建或围绕基于 Odoo 的业务系统运营的团队。_
 - [`odoo-security-rules`](../../skills/odoo-security-rules/)：应用安全访问控制和规则设计。
 - [`odoo-docker-deployment`](../../skills/odoo-docker-deployment/)：在基于 Docker 的环境中部署和运行 Odoo。
 
-### ☁️ "Azure AI 与云"包
+    ☁️ "Azure AI 与云"包
 
 _用于在 Azure 上跨云、AI 和平台服务构建。_
 
@@ -409,7 +409,7 @@ _用于在 Azure 上跨云、AI 和平台服务构建。_
 - [`azure-identity-py`](../../skills/azure-identity-py/)：在 Python 服务中处理 Azure 身份验证流。
 - [`azure-monitor-opentelemetry-ts`](../../skills/azure-monitor-opentelemetry-ts/)：从 TypeScript 应用添加遥测和追踪。
 
-### 📲 "Expo 与 React Native"包
+    📲 "Expo 与 React Native"包
 
 _用于使用 Expo 和 React Native 发布移动应用。_
 
@@ -421,7 +421,7 @@ _用于使用 Expo 和 React Native 发布移动应用。_
 - [`expo-deployment`](../../skills/expo-deployment/)：部署 Expo 应用并管理发布流。
 - [`app-store-optimization`](../../skills/app-store-optimization/)：提高 App Store 和 Play Store 的可发现性。
 
-### 🍎 "Apple 平台设计"包
+    🍎 "Apple 平台设计"包
 
 _用于设计原生感觉的 Apple 平台体验的团队。_
 
@@ -432,7 +432,7 @@ _用于设计原生感觉的 Apple 平台体验的团队。_
 - [`hig-components-system`](../../skills/hig-components-system/)：使用小部件、实时活动和系统表面。
 - [`hig-platforms`](../../skills/hig-platforms/)：跨 Apple 设备系列适配体验。
 
-### 🧩 "Makepad 构建器"包
+    🧩 "Makepad 构建器"包
 
 _用于使用 Makepad 生态系统构建重度 UI 应用。_
 
@@ -443,7 +443,7 @@ _用于使用 Makepad 生态系统构建重度 UI 应用。_
 - [`makepad-shaders`](../../skills/makepad-shaders/)：创建 GPU 驱动的视觉效果和自定义绘图。
 - [`makepad-deployment`](../../skills/makepad-deployment/)：打包和发布 Makepad 项目。
 
-### 🔎 "SEO 专家"包
+    🔎 "SEO 专家"包
 
 _用于技术 SEO、内容结构和搜索增长。_
 
@@ -455,7 +455,7 @@ _用于技术 SEO、内容结构和搜索增长。_
 - [`seo-content-auditor`](../../skills/seo-content-auditor/)：审计现有内容质量和优化缺口。
 - [`schema-markup`](../../skills/schema-markup/)：添加结构化数据以支持更丰富的搜索结果。
 
-### 📄 "文档与演示"包
+    📄 "文档与演示"包
 
 _用于重度文档工作流、电子表格、PDF 和演示。_
 
@@ -469,9 +469,9 @@ _用于重度文档工作流、电子表格、PDF 和演示。_
 
 ---
 
-## 🧰 维护者与开源
+   🧰 维护者与开源
 
-### 🛠️ "OSS 维护者"包
+    🛠️ "OSS 维护者"包
 
 _用于在公共仓库中发布清晰的更改。_
 
@@ -483,7 +483,7 @@ _用于在公共仓库中发布清晰的更改。_
 - [`git-advanced-workflows`](../../skills/git-advanced-workflows/)：变基、拣选、二分、恢复。
 - [`documentation-templates`](../../skills/documentation-templates/)：标准化文档和交接。
 
-### 🧱 "技能作者"包
+    🧱 "技能作者"包
 
 _用于创建和维护高质量的 SKILL.md 资产。_
 
@@ -496,56 +496,56 @@ _用于创建和维护高质量的 SKILL.md 资产。_
 
 ---
 
-## 📚 如何使用捆绑包
+   📚 如何使用捆绑包
 
-### 1) 根据即时目标选择
+    1) 根据即时目标选择
 
 - 现在需要发布功能：`Essentials` + 一个域包（`Web Wizard`、`Python Pro`、`DevOps & Cloud`）。
 - 需要可靠性和加固：添加 `QA & Testing` + `Security Developer`。
 - 需要产品增长：添加 `Startup Founder` 或 `Marketing & Growth`。
 
-### 2) 从 3-5 个技能开始，而不是 20 个
+    2) 从 3-5 个技能开始，而不是 20 个
 
 为你当前的里程碑选择最小集合。只有在遇到真正的缺口时才扩展。
 
-### 3) 一致地调用技能
+    3) 一致地调用技能
 
 - **Claude Code**：`>> /skill-name 帮我...`
 - **Cursor**：在聊天中使用 `@skill-name`
 - **Gemini CLI**：`Use skill-name...`
 - **Codex CLI**：`Use skill-name...`
 
-### 4) 构建你的个人简短列表
+    4) 构建你的个人简短列表
 
 保留一个小的高频技能列表，并在任务中重用它以减少上下文切换。
 
-## 🧩 推荐的捆绑包组合
+   🧩 推荐的捆绑包组合
 
-### 发布 SaaS MVP（2 周）
+    发布 SaaS MVP（2 周）
 
 `Essentials` + `Full-Stack Developer` + `QA & Testing` + `Startup Founder`
 
-### 加固现有的生产应用
+    加固现有的生产应用
 
 `Essentials` + `Security Developer` + `DevOps & Cloud` + `Observability & Monitoring`
 
-### 构建 AI 产品
+    构建 AI 产品
 
 `Essentials` + `Agent Architect` + `LLM Application Developer` + `Data Engineering`
 
-### 增长流量和转化
+    增长流量和转化
 
 `Web Wizard` + `Marketing & Growth` + `Data & Analytics`
 
-### 启动和维护开源
+    启动和维护开源
 
 `Essentials` + `OSS Maintainer` + `Architecture & Design`
 
 ---
 
-## 学习路径
+   学习路径
 
-### 初学者 → 中级 → 高级
+    初学者 → 中级 → 高级
 
 **Web 开发：**
 
@@ -573,13 +573,13 @@ _用于创建和维护高质量的 SKILL.md 资产。_
 
 ---
 
-## 贡献
+   贡献
 
-发现应该在捆绑包中的技能？或者想创建新的捆绑包？[提交 issue](https://github.com/sickn33/antigravity-awesome-skills/issues)或提交 PR！
+发现应该在捆绑包中的技能？或者想创建新的捆绑包？[提交 issue](https://github.com/sickn33/agentic-awesome-skills/issues)或提交 PR！
 
 ---
 
-## 相关文档
+   相关文档
 
 - [入门指南](getting-started.md)
 - [完整技能目录](../../CATALOG.md)

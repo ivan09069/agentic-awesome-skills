@@ -1,4 +1,4 @@
-# Antigravity Awesome Skills 入门指南 (V11.5.0)
+# Agentic Awesome Skills 入门指南 (V11.5.0)
 
 **新手入门？本指南将在 5 分钟内帮助您增强 AI 代理的能力。**
 
@@ -27,18 +27,18 @@ AI 代理（如 **Claude Code**、**Gemini**、**Cursor**）非常智能，但�
 **选项 A — npx（最简单）：**
 
 ```bash
-npx antigravity-awesome-skills
+npx agentic-awesome-skills
 ```
 
-默认情况下，这会克隆到 `~/.agents/skills`。使用 `--cursor`、`--claude`、`--gemini`、`--codex` 或 `--kiro` 为特定工具安装，或使用 `--path <dir>` 指定自定义位置。运行 `npx antigravity-awesome-skills --help` 查看详细信息。
+默认情况下，这会克隆到 `~/.agents/skills`。使用 `--cursor`、`--claude`、`--gemini`、`--codex` 或 `--kiro` 为特定工具安装，或使用 `--path <dir>` 指定自定义位置。运行 `npx agentic-awesome-skills --help` 查看详细信息。
 
-如果看到 404 错误，请使用：`npx github:sickn33/antigravity-awesome-skills`
+如果看到 404 错误，请使用：`npx github:sickn33/agentic-awesome-skills`
 
 **选项 B — git clone：**
 
 ```bash
 # 通用（适用于大多数代理）
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+git clone https://github.com/sickn33/agentic-awesome-skills.git .agent/skills
 ```
 
 ### 2. 选择您的角色
@@ -97,7 +97,7 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skill
 
 | 工具            | 状态          | 路径                                                                  |
 | :-------------- | :-------------- | :-------------------------------------------------------------------- |
-| **Claude Code** | ✅ 完全支持 | `.claude/skills/` 或通过 `/plugin marketplace add sickn33/antigravity-awesome-skills` 安装 |
+| **Claude Code** | ✅ 完全支持 | `.claude/skills/` 或通过 `/plugin marketplace add sickn33/agentic-awesome-skills` 安装 |
 | **Gemini CLI**  | ✅ 完全支持 | `.gemini/skills/`                                                     |
 | **Codex CLI**   | ✅ 完全支持 | `.codex/skills/`                                                      |
 | **Kiro CLI**    | ✅ 完全支持 | 全局：`~/.kiro/skills/` · 工作区：`.kiro/skills/`                |
@@ -129,8 +129,8 @@ _查看 [技能目录](../../CATALOG.md) 获取完整列表。_
 如果您更喜欢使用 Claude Code 的插件市场流程而不是复制到 `.claude/skills/`，请使用：
 
 ```text
-/plugin marketplace add sickn33/antigravity-awesome-skills
-/plugin install antigravity-awesome-skills
+/plugin marketplace add sickn33/agentic-awesome-skills
+/plugin install agentic-awesome-skills
 ```
 
 **问：我需要安装每个技能吗？**
@@ -140,7 +140,7 @@ _查看 [技能目录](../../CATALOG.md) 获取完整列表。_
 答：可以！使用 **@skill-creator** 技能来构建您自己的技能。
 
 **问：如果 Antigravity 在 Windows 上遇到截断崩溃循环卡住怎么办？**
-答：按照 [windows-truncation-recovery.md](windows-truncation-recovery.md) 中的恢复步骤操作。它说明了哪些 Antigravity 存储文件夹需要备份和清除，并包含可选的批处理助手，改编自 [issue #274](https://github.com/sickn33/antigravity-awesome-skills/issues/274)。
+答：按照 [windows-truncation-recovery.md](windows-truncation-recovery.md) 中的恢复步骤操作。它说明了哪些 Antigravity 存储文件夹需要备份和清除，并包含可选的批处理助手，改编自 [issue #274](https://github.com/sickn33/agentic-awesome-skills/issues/274)。
 
 **问：如果 Antigravity 在 Linux 或 macOS 上因太多技能激活而过载怎么办？**
 答：使用 [agent-overload-recovery.md](agent-overload-recovery.md) 中的激活流程。它展示如何从克隆的仓库运行 `scripts/activate-skills.sh`，以便您可以将完整的库归档，并仅激活实时 Antigravity 目录中所需的捆绑包或技能。

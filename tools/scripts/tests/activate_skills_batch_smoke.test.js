@@ -77,7 +77,7 @@ const result = spawnSync(
   );
   assert.match(
     result.stdout,
-    /Done! Antigravity skills are now activated\./,
+    /Done! Agentic skills are now activated\./,
     "script should report successful activation",
   );
 

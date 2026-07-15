@@ -1,8 +1,8 @@
-# Antigravity Workflows
+  Antigravity Workflows
 
 > Workflow playbooks to orchestrate multiple skills with less friction.
 
-## What Is a Workflow?
+   What Is a Workflow?
 
 A workflow is a guided, step-by-step execution path that combines multiple skills for one concrete outcome.
 
@@ -13,9 +13,9 @@ If bundles are your toolbox, workflows are your execution playbook.
 
 ---
 
-## How to Use Workflows
+   How to Use Workflows
 
-1. Install the repository once (`npx antigravity-awesome-skills`).
+1. Install the repository once (`npx agentic-awesome-skills`).
 2. Pick a workflow matching your immediate goal.
 3. Execute steps in order and invoke the listed skills in each step.
 4. Keep output artifacts at each step (plan, decisions, tests, validation evidence).
@@ -24,19 +24,19 @@ You can combine workflows with bundles from [bundles.md](bundles.md) when you ne
 
 ---
 
-## Workflow: Ship a SaaS MVP
+   Workflow: Ship a SaaS MVP
 
 Build and ship a minimal but production-minded SaaS product.
 
 **Related bundles:** `Essentials`, `Full-Stack Developer`, `QA & Testing`, `DevOps & Cloud`
 
-### Prerequisites
+    Prerequisites
 
 - Local repository and runtime configured.
 - Clear user problem and MVP scope.
 - Basic deployment target selected.
 
-### Steps
+    Steps
 
 1. **Plan the scope**
    - **Goal:** Define MVP boundaries and acceptance criteria.
@@ -66,19 +66,19 @@ Build and ship a minimal but production-minded SaaS product.
 
 ---
 
-## Workflow: Security Audit for a Web App
+   Workflow: Security Audit for a Web App
 
 Run a focused security review from scope definition to remediation validation.
 
 **Related bundles:** `Security Engineer`, `Security Developer`, `Observability & Monitoring`
 
-### Prerequisites
+    Prerequisites
 
 - Explicit authorization for testing.
 - In-scope targets documented.
 - Logging and environment details available.
 
-### Steps
+    Steps
 
 1. **Define scope and threat model**
    - **Goal:** Identify assets, trust boundaries, and attack paths.
@@ -102,19 +102,19 @@ Run a focused security review from scope definition to remediation validation.
 
 ---
 
-## Workflow: Build an AI Agent System
+   Workflow: Build an AI Agent System
 
 Design and deliver a production-grade agent with measurable reliability.
 
 **Related bundles:** `Agent Architect`, `LLM Application Developer`, `Data Engineering`
 
-### Prerequisites
+    Prerequisites
 
 - Narrow use case with measurable outcomes.
 - Access to model provider(s) and observability tooling.
 - Initial dataset or knowledge corpus.
 
-### Steps
+    Steps
 
 1. **Define target behavior and KPIs**
    - **Goal:** Set quality, latency, and failure thresholds.
@@ -138,19 +138,19 @@ Design and deliver a production-grade agent with measurable reliability.
 
 ---
 
-## Workflow: QA and Browser Automation
+   Workflow: QA and Browser Automation
 
 Create resilient browser automation with deterministic execution in CI.
 
 **Related bundles:** `QA & Testing`, `Full-Stack Developer`
 
-### Prerequisites
+    Prerequisites
 
 - Test environments and stable credentials.
 - Critical user journeys identified.
 - CI pipeline available.
 
-### Steps
+    Steps
 
 1. **Prepare test strategy**
    - **Goal:** Scope journeys, fixtures, and execution environments.
@@ -169,19 +169,19 @@ Create resilient browser automation with deterministic execution in CI.
 
 ---
 
-## Workflow: Design a DDD Core Domain
+   Workflow: Design a DDD Core Domain
 
 Model a complex domain coherently, then implement tactical and evented patterns only where justified.
 
 **Related bundles:** `Architecture & Design`, `DDD & Evented Architecture`
 
-### Prerequisites
+    Prerequisites
 
 - Access to at least one domain expert or product owner proxy.
 - Current system context and integration landscape available.
 - Agreement on business goals and key domain outcomes.
 
-### Steps
+    Steps
 
 1. **Assess DDD fit and scope**
    - **Goal:** Decide whether full DDD, partial DDD, or simple modular architecture is appropriate.
@@ -210,6 +210,6 @@ Model a complex domain coherently, then implement tactical and evented patterns 
 
 ---
 
-## Machine-Readable Workflows
+   Machine-Readable Workflows
 
 For tooling and automation, workflow metadata is available in [data/workflows.json](../../data/workflows.json).

@@ -239,7 +239,7 @@ function assertJsonLdTypes(htmlText, requiredTypes) {
 
 function assertRepositoryJsonLdSignals(htmlText) {
   const entries = extractJsonLdEntries(htmlText);
-  const repoUrl = 'https://github.com/sickn33/antigravity-awesome-skills';
+  const repoUrl = 'https://github.com/sickn33/agentic-awesome-skills';
   const sourceCode = entries.find((entry) => entry?.['@type'] === 'SoftwareSourceCode');
   const organization = entries.find((entry) => entry?.['@type'] === 'Organization');
   const collectionPage = entries.find((entry) => entry?.['@type'] === 'CollectionPage');
@@ -343,12 +343,12 @@ export function assertRobots(robotsText) {
 export function assertLlms(llmsText) {
   const text = String(llmsText ?? '');
   const requiredSnippets = [
-    '# Antigravity Awesome Skills',
+    '# Agentic Awesome Skills',
     '1,525+',
     'specialized plugins',
     'Claude Code',
     'Codex CLI',
-    'https://github.com/sickn33/antigravity-awesome-skills',
+    'https://github.com/sickn33/agentic-awesome-skills',
     'Canonical source of truth',
   ];
 

@@ -14,7 +14,7 @@ Priority 3 包含面向高级用户的文档,涵盖 AI 代理技能、工具特�
 
 1. `agent-overload-recovery.md` - 上下文过载恢复指南
 2. `ai-agent-skills.md` - AI 代理技能说明
-3. `antigravity-awesome-skills-vs-awesome-claude-skills.md` - 仓库对比
+3. `agentic-awesome-skills-vs-awesome-claude-skills.md` - 仓库对比
 4. `best-claude-code-skills-github.md` - Claude Code 技能推荐
 5. `best-cursor-skills-github.md` - Cursor 技能推荐
 6. `bundles.md` - 技能捆绑包指南

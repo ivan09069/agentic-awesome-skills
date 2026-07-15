@@ -77,9 +77,9 @@ describe('seo assets verification helpers', () => {
 
   it('requires llms.txt discovery signals', () => {
     const llms = `
-      # Antigravity Awesome Skills
+      # Agentic Awesome Skills
       1,525+ agentic skills with specialized plugins for Claude Code and Codex CLI.
-      https://github.com/sickn33/antigravity-awesome-skills
+      https://github.com/sickn33/agentic-awesome-skills
       Canonical source of truth: the GitHub repository is the primary project URL.
     `;
 
@@ -104,18 +104,18 @@ describe('seo assets verification helpers', () => {
     const html = `
       <html>
         <head>
-          <title>Antigravity Awesome Skills | 1,525+ AI coding skills and plugins</title>
+          <title>Agentic Awesome Skills | 1,525+ AI coding skills and plugins</title>
           <meta name="description" content="Explore 1,525+ installable agentic skills, specialized plugins, bundles, and workflows." />
-          <meta property="og:title" content="Antigravity Awesome Skills | 1,525+ AI coding skills and plugins" />
+          <meta property="og:title" content="Agentic Awesome Skills | 1,525+ AI coding skills and plugins" />
           <meta property="og:description" content="Explore 1,525+ installable agentic skills, specialized plugins, bundles, and workflows." />
-          <meta name="twitter:title" content="Antigravity Awesome Skills | 1,525+ AI coding skills and plugins" />
+          <meta name="twitter:title" content="Agentic Awesome Skills | 1,525+ AI coding skills and plugins" />
           <meta name="twitter:description" content="Explore 1,525+ installable agentic skills, specialized plugins, bundles, and workflows." />
           <script type="application/ld+json">
             [
-              {"@context":"https://schema.org","@type":"CollectionPage","sameAs":"https://github.com/sickn33/antigravity-awesome-skills"},
-              {"@context":"https://schema.org","@type":"Organization","url":"https://github.com/sickn33/antigravity-awesome-skills"},
+              {"@context":"https://schema.org","@type":"CollectionPage","sameAs":"https://github.com/sickn33/agentic-awesome-skills"},
+              {"@context":"https://schema.org","@type":"Organization","url":"https://github.com/sickn33/agentic-awesome-skills"},
               {"@context":"https://schema.org","@type":"WebSite"},
-              {"@context":"https://schema.org","@type":"SoftwareSourceCode","url":"https://github.com/sickn33/antigravity-awesome-skills","codeRepository":"https://github.com/sickn33/antigravity-awesome-skills","mainEntityOfPage":"https://owner.github.io/repo/"},
+              {"@context":"https://schema.org","@type":"SoftwareSourceCode","url":"https://github.com/sickn33/agentic-awesome-skills","codeRepository":"https://github.com/sickn33/agentic-awesome-skills","mainEntityOfPage":"https://owner.github.io/repo/"},
               {"@context":"https://schema.org","@type":"FAQPage"}
             ]
           </script>
