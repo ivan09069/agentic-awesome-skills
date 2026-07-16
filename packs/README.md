@@ -28,17 +28,14 @@ cd C:\openclaw\antigravity-awesome-skills
 # BEST DEFAULT → %USERPROFILE%\.grok\skills  (Grok Build)
 .\packs\install-ivan-core.ps1
 
-# Grok + OpenClaw agents path
+# Grok + OpenClaw agents path only (no Claude / Cursor)
 .\packs\install-ivan-core.ps1 -Target all
-
-# Other agents
-.\packs\install-ivan-core.ps1 -Target claude
-.\packs\install-ivan-core.ps1 -Target cursor
-.\packs\install-ivan-core.ps1 -Target hermes
 
 # Refresh + prune non-pack skills (Grok builtins protected)
 .\packs\install-ivan-core.ps1 -Target grok -Prune
 ```
+
+Claude Code and Cursor are **out of scope** — not install targets, and Grok’s `compat.claude` / `compat.cursor` skill scans are disabled in `~/.grok/config.toml`.
 
 Uses **local copy** from this checkout (fast). Add `-UseNetworkInstaller` only if you want the official clone-from-tag flow.
 

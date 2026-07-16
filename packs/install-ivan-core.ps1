@@ -3,7 +3,7 @@
 # Best option for this machine: Grok Build primary → ~/.grok/skills
 # Also supports: agents, claude, cursor, codex, hermes, custom
 param(
-  [ValidateSet("grok", "agents", "claude", "cursor", "codex", "hermes", "all", "custom")]
+  [ValidateSet("grok", "agents", "all", "custom")]
   [string]$Target = "grok",
   [string]$Path = "",
   [switch]$Prune,
@@ -31,15 +31,8 @@ $Protected = [System.Collections.Generic.HashSet[string]]::new([string[]]@(
 function Resolve-TargetPath([string]$t) {
   switch ($t) {
     "grok"   { return (Join-Path $env:USERPROFILE ".grok\skills") }
-    "agents" { return (Join-Path $env:USERPROFILE ".agents\skills") }
-    "claude" { return (Join-Path $env:USERPROFILE ".claude\skills") }
-    "cursor" { return (Join-Path (Get-Location) ".cursor\skills") }
-    "codex"  { return (Join-Path $env:USERPROFILE ".codex\skills") }
-    "hermes" {
-      $hermesHome = if ($env:HERMES_HOME) { $env:HERMES_HOME } else { Join-Path $env:USERPROFILE ".hermes" }
-      return (Join-Path $hermesHome "skills")
-    }
-    default  { throw "Unknown target: $t" }
+    "agents" { return (Join-Path $env:USERPROFILE ".agents\skills") }  # OpenClaw only; not Claude/Cursor
+    default  { throw "Unknown target: $t (supported: grok, agents, all, custom)" }
   }
 }
 
@@ -117,4 +110,4 @@ foreach ($t in $targets) {
 
 Write-Host "Next: run  grok inspect  and confirm Ivan Core skills appear under Skills."
 Write-Host "Slash: type / then a skill name (e.g. /typescript-expert, /create-pr)."
-Write-Host "Tip:   .\packs\install-ivan-core.ps1 -Target all   # grok + agents"
+Write-Host "Tip:   .\packs\install-ivan-core.ps1 -Target all   # grok + OpenClaw agents path only"

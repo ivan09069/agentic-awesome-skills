@@ -11,7 +11,7 @@
       "ivan09069/hermes-agent",
       "ivan09069/agentic-awesome-skills"
     ],
-    "agents": ["openclaw", "hermes", "cursor", "claude", "codex"],
+    "agents": ["grok", "openclaw", "hermes"],
     "domains": [
       "multi-agent systems",
       "typescript monorepos",

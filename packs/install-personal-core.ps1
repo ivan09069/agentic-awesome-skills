@@ -1,7 +1,7 @@
 # Legacy entrypoint — installs Ivan Core (tailored pack).
 param(
-  [ValidateSet("agents", "claude", "cursor", "codex", "hermes", "custom")]
-  [string]$Target = "agents",
+  [ValidateSet("grok", "agents", "all", "custom")]
+  [string]$Target = "grok",
   [string]$Path = "",
   [switch]$Prune
 )
