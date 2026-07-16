@@ -1,0 +1,56 @@
+{
+  "id": "personal-core",
+  "name": "Personal Core Pack",
+  "version": "1.0.0",
+  "description": "Curated ~30-skill starter set for daily coding agents: planning, debugging, full-stack web, DevOps basics, agent architecture, and security hygiene.",
+  "source_repo": "https://github.com/ivan09069/agentic-awesome-skills",
+  "upstream": "https://github.com/sickn33/agentic-awesome-skills",
+  "upstream_version": "14.5.0",
+  "install": {
+    "skills_csv": "concise-planning,test-driven-development,lint-and-validate,systematic-debugging,git-pushing,senior-fullstack,frontend-developer,backend-dev-guidelines,api-patterns,database-design,frontend-design,react-best-practices,nextjs-best-practices,tailwind-patterns,seo-audit,docker-expert,ci-cd-and-automation,deployment-procedures,bash-linux,environment-setup-guide,prompt-engineering,ai-agents-architect,mcp-builder,rag-engineer,agent-evaluation,security-auditor,threat-modeling-expert,top-web-vulnerabilities,code-review-checklist,e2e-testing-patterns"
+  },
+  "groups": {
+    "essentials": [
+      "concise-planning",
+      "test-driven-development",
+      "lint-and-validate",
+      "systematic-debugging",
+      "git-pushing"
+    ],
+    "full_stack": [
+      "senior-fullstack",
+      "frontend-developer",
+      "backend-dev-guidelines",
+      "api-patterns",
+      "database-design",
+      "e2e-testing-patterns"
+    ],
+    "web": [
+      "frontend-design",
+      "react-best-practices",
+      "nextjs-best-practices",
+      "tailwind-patterns",
+      "seo-audit"
+    ],
+    "devops": [
+      "docker-expert",
+      "ci-cd-and-automation",
+      "deployment-procedures",
+      "bash-linux",
+      "environment-setup-guide"
+    ],
+    "agents": [
+      "prompt-engineering",
+      "ai-agents-architect",
+      "mcp-builder",
+      "rag-engineer",
+      "agent-evaluation"
+    ],
+    "security": [
+      "security-auditor",
+      "threat-modeling-expert",
+      "top-web-vulnerabilities",
+      "code-review-checklist"
+    ]
+  }
+}
