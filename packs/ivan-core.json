@@ -1,0 +1,123 @@
+{
+  "id": "ivan-core",
+  "name": "Ivan Core Pack",
+  "version": "2.0.0",
+  "description": "Skill pack tailored to ivan09069: Windows + PowerShell, OpenClaw/Hermes multi-agent work, TypeScript monorepos, Python agent backends, GitHub PR loops, MCP tooling, and crypto/compliance side projects.",
+  "profile": {
+    "owner": "ivan09069",
+    "os": "windows",
+    "primary_repos": [
+      "openclaw/openclaw",
+      "ivan09069/hermes-agent",
+      "ivan09069/agentic-awesome-skills"
+    ],
+    "agents": ["openclaw", "hermes", "cursor", "claude", "codex"],
+    "domains": [
+      "multi-agent systems",
+      "typescript monorepos",
+      "python agent platforms",
+      "github automation",
+      "mcp servers",
+      "crypto/fintech tooling"
+    ]
+  },
+  "source_repo": "https://github.com/ivan09069/agentic-awesome-skills",
+  "upstream": "https://github.com/sickn33/agentic-awesome-skills",
+  "upstream_version": "14.5.0",
+  "install": {
+    "skills_csv": "concise-planning,systematic-debugging,test-driven-development,lint-and-validate,git-pushing,create-pr,address-github-comments,requesting-code-review,code-review-checklist,git-pr-review,typescript-expert,nodejs-best-practices,monorepo-management,electron-development,powershell-windows,windows-shell-reliability,architecture-patterns,senior-architect,python-pro,pytest-skill,api-design-principles,backend-dev-guidelines,prompt-engineering,ai-agents-architect,mcp-builder,mcp-tool-developer,agent-memory-systems,agent-evaluation,docker-expert,ci-cd-and-automation,github-actions-debugger,playwright-skill,postgres-best-practices,security-auditor,api-security-best-practices,trading-ledger,fsi-compliance-checker,react-best-practices,nextjs-app-router-patterns,frontend-developer"
+  },
+  "groups": {
+    "daily_loop": {
+      "why": "How you ship: plan → implement → test → PR → review comments",
+      "skills": [
+        "concise-planning",
+        "systematic-debugging",
+        "test-driven-development",
+        "lint-and-validate",
+        "git-pushing",
+        "create-pr",
+        "address-github-comments",
+        "requesting-code-review",
+        "code-review-checklist",
+        "git-pr-review"
+      ]
+    },
+    "openclaw_typescript": {
+      "why": "OpenClaw monorepo: pnpm/TS, gateway, Electron desktop, architecture",
+      "skills": [
+        "typescript-expert",
+        "nodejs-best-practices",
+        "monorepo-management",
+        "electron-development",
+        "architecture-patterns",
+        "senior-architect",
+        "react-best-practices",
+        "nextjs-app-router-patterns",
+        "frontend-developer"
+      ]
+    },
+    "windows_shell": {
+      "why": "Primary OS is Windows; avoid POSIX-only assumptions in agents",
+      "skills": [
+        "powershell-windows",
+        "windows-shell-reliability"
+      ]
+    },
+    "hermes_python_agents": {
+      "why": "Hermes agent core, tools, plugins, APIs, tests",
+      "skills": [
+        "python-pro",
+        "pytest-skill",
+        "api-design-principles",
+        "backend-dev-guidelines",
+        "prompt-engineering",
+        "ai-agents-architect",
+        "agent-memory-systems",
+        "agent-evaluation"
+      ]
+    },
+    "mcp_tooling": {
+      "why": "You build/run MCP stacks (compliance, cex-exec, tradememory, loop, cdp-wallet)",
+      "skills": [
+        "mcp-builder",
+        "mcp-tool-developer"
+      ]
+    },
+    "infra_ci": {
+      "why": "Docker, Actions, debugging flaky CI on forks and monorepos",
+      "skills": [
+        "docker-expert",
+        "ci-cd-and-automation",
+        "github-actions-debugger",
+        "playwright-skill",
+        "postgres-best-practices"
+      ]
+    },
+    "crypto_compliance": {
+      "why": "EchoForge / trading / compliance MCP work — risk-aware, not full pen-test suite",
+      "skills": [
+        "trading-ledger",
+        "fsi-compliance-checker",
+        "security-auditor",
+        "api-security-best-practices"
+      ]
+    }
+  },
+  "dropped_from_generic_pack": {
+    "reason": "Lower signal for your day-to-day vs generic web/startup pack",
+    "skills": [
+      "seo-audit",
+      "tailwind-patterns",
+      "threat-modeling-expert",
+      "top-web-vulnerabilities",
+      "senior-fullstack",
+      "database-design",
+      "bash-linux",
+      "environment-setup-guide",
+      "deployment-procedures",
+      "rag-engineer",
+      "e2e-testing-patterns"
+    ]
+  }
+}

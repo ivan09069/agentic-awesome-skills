@@ -1,58 +1,43 @@
-# Personal skill packs
+# Skill packs (this fork)
 
-Curated subsets of this fork so agents load **what you use**, not the full 1,800+ catalog.
+Curated subsets so agents load **how you work**, not the full 1,800+ catalog.
 
 ## Packs
 
-| Pack | Skills | File |
-|------|--------|------|
-| **Personal Core** | ~30 | [`personal-core.json`](./personal-core.json) |
+| Pack | Skills | Default for | File |
+|------|--------|-------------|------|
+| **Ivan Core** (recommended) | 40 | Daily OpenClaw / Hermes / Windows / MCP / crypto | [`ivan-core.json`](./ivan-core.json) |
+| Personal Core (legacy) | 30 | Generic starter — superseded | [`personal-core.json`](./personal-core.json) |
 
-### Personal Core groups
+Read **[PROFILE.md](./PROFILE.md)** for why Ivan Core is shaped the way it is.
 
-1. **Essentials** — plan, TDD, lint, debug, git  
-2. **Full-stack** — senior FS, FE/BE, API, DB, e2e  
-3. **Web** — design, React/Next, Tailwind, SEO  
-4. **DevOps** — Docker, CI/CD, deploy, bash, env setup  
-5. **Agents** — prompts, agent architecture, MCP, RAG, eval  
-6. **Security** — auditor, threat model, OWASP top web, code review  
-
-## Install (Windows PowerShell)
-
-From the repo root (after `npm ci`):
+## Quick install (Windows)
 
 ```powershell
-# Default: OpenClaw/Antigravity-style global skills dir
-.\packs\install-personal-core.ps1
+cd C:\openclaw\antigravity-awesome-skills
 
-# Claude Code
-.\packs\install-personal-core.ps1 -Target claude
+# Default → %USERPROFILE%\.agents\skills  (OpenClaw / Antigravity-style)
+.\packs\install-ivan-core.ps1
 
-# Cursor project skills
-.\packs\install-personal-core.ps1 -Target cursor
+# Also install where other agents look
+.\packs\install-ivan-core.ps1 -Target claude
+.\packs\install-ivan-core.ps1 -Target cursor
+.\packs\install-ivan-core.ps1 -Target hermes
 
-# Custom path
-.\packs\install-personal-core.ps1 -Path "$env:USERPROFILE\.agents\skills"
+# Refresh + remove skills not in the pack
+.\packs\install-ivan-core.ps1 -Prune
 ```
 
-Equivalent one-liner (installer CLI):
+## Ivan Core groups
 
-```powershell
-node tools/bin/install.js --path "$env:USERPROFILE\.agents\skills" --skills (Get-Content packs/personal-core.json | ConvertFrom-Json).install.skills_csv
-```
+1. **daily_loop** — plan, debug, TDD, lint, git, PR create/review/comments  
+2. **openclaw_typescript** — TS monorepo, Node, Electron, architecture, React/Next  
+3. **windows_shell** — PowerShell + Windows reliability  
+4. **hermes_python_agents** — Python, pytest, APIs, prompts, agent memory/eval  
+5. **mcp_tooling** — MCP server/tool authoring  
+6. **infra_ci** — Docker, Actions debug, Playwright, Postgres  
+7. **crypto_compliance** — trading ledger, FSI compliance, API/security audit  
 
-Or via published upstream package (always current public catalog):
+## Customize
 
-```powershell
-npx agentic-awesome-skills --path "$env:USERPROFILE\.agents\skills" --skills concise-planning,test-driven-development,...
-```
-
-## Edit the pack
-
-1. Edit skill ids in `packs/personal-core.json` (must exist under `skills/<id>/`).  
-2. Re-run the install script.  
-3. Prefer **small packs** — large skill sets overload agent context.
-
-## Sync note
-
-This fork tracks upstream `sickn33/agentic-awesome-skills`. After a future upstream sync, re-run install if skill ids changed.
+Edit `packs/ivan-core.json` → re-run `install-ivan-core.ps1 -Prune`.
