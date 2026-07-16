@@ -2,11 +2,20 @@
 
 Curated subsets so agents load **how you work**, not the full 1,800+ catalog.
 
+## Best option (this machine)
+
+**Primary agent: Grok Build** → skills install to `~/.grok/skills` by default.
+
+Also mirrored to `~/.agents/skills` for OpenClaw / other tools. Grok discovers both;
+`~/.grok/skills` wins on name conflicts.
+
+Meta skill for your operating style: **`/ivan-workflow`** (lives in `~/.grok/skills/ivan-workflow`).
+
 ## Packs
 
 | Pack | Skills | Default for | File |
 |------|--------|-------------|------|
-| **Ivan Core** (recommended) | 40 | Daily OpenClaw / Hermes / Windows / MCP / crypto | [`ivan-core.json`](./ivan-core.json) |
+| **Ivan Core** (recommended) | 40 | Grok + your stack | [`ivan-core.json`](./ivan-core.json) |
 | Personal Core (legacy) | 30 | Generic starter — superseded | [`personal-core.json`](./personal-core.json) |
 
 Read **[PROFILE.md](./PROFILE.md)** for why Ivan Core is shaped the way it is.
@@ -16,16 +25,28 @@ Read **[PROFILE.md](./PROFILE.md)** for why Ivan Core is shaped the way it is.
 ```powershell
 cd C:\openclaw\antigravity-awesome-skills
 
-# Default → %USERPROFILE%\.agents\skills  (OpenClaw / Antigravity-style)
+# BEST DEFAULT → %USERPROFILE%\.grok\skills  (Grok Build)
 .\packs\install-ivan-core.ps1
 
-# Also install where other agents look
+# Grok + OpenClaw agents path
+.\packs\install-ivan-core.ps1 -Target all
+
+# Other agents
 .\packs\install-ivan-core.ps1 -Target claude
 .\packs\install-ivan-core.ps1 -Target cursor
 .\packs\install-ivan-core.ps1 -Target hermes
 
-# Refresh + remove skills not in the pack
-.\packs\install-ivan-core.ps1 -Prune
+# Refresh + prune non-pack skills (Grok builtins protected)
+.\packs\install-ivan-core.ps1 -Target grok -Prune
+```
+
+Uses **local copy** from this checkout (fast). Add `-UseNetworkInstaller` only if you want the official clone-from-tag flow.
+
+Verify:
+
+```powershell
+grok inspect
+# Skills section should list Ivan Core skills as "user"
 ```
 
 ## Ivan Core groups

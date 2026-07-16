@@ -24,15 +24,19 @@ Generic “web startup” skills that rarely match your agent/infra day:
 - Generic bash/linux env bootstrap (you’re Windows-primary)  
 - Catch-all senior-fullstack / database design when architecture + TS/Python specialists cover better  
 
-## Install
+## Install (Grok-first)
 
 ```powershell
 cd C:\openclaw\antigravity-awesome-skills
-.\packs\install-ivan-core.ps1                 # ~/.agents/skills
+.\packs\install-ivan-core.ps1                 # DEFAULT → ~/.grok/skills
+.\packs\install-ivan-core.ps1 -Target all     # Grok + ~/.agents/skills
 .\packs\install-ivan-core.ps1 -Target claude
 .\packs\install-ivan-core.ps1 -Target cursor
 .\packs\install-ivan-core.ps1 -Target hermes
-.\packs\install-ivan-core.ps1 -Prune          # also remove skills not in the pack
+.\packs\install-ivan-core.ps1 -Prune          # drop non-pack skills (builtins kept)
+
+grok inspect   # confirm skills visible
+# In Grok: /ivan-workflow  or  /typescript-expert  etc.
 ```
 
 ## Editing the pack
